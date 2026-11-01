@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+
+    <center>
+        <h1><b><em><u>College Event Registration System</u></em></b></h1>
+        <p><em>Student Event Registration Form</em></p>
+        <hr>
+
+        <h2><b><em><u>Student Registration Form</u></em></b></h2>
+        <p><i>Enter your details carefully to register for a college event.</i></p>
+    </center>
+
+    <hr>
+
+    <h2><b><em><center><u>Student Details</u></center></em></b></h2>
+
+    <form action="confirmation.html" method="get"><center>
+
+        <p>
+            <b><label for="name">Student Name:</label></b><br>
+            <input type="text" id="name" name="student_name" required>
+        </p>
+
+        <p>
+            <b><label for="rollno">Register Number:</label></b><br>
+            <input type="text" id="rollno" name="register_number" required>
+        </p>
+
+        <p>
+            <b><label for="department">Department:</label></b><br>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="EEE">Electrical and Electronics Engineering</option>
+                <option value="ECE">Electronics and Communication Engineering</option>
+                <option value="CSE">Computer Science Engineering</option>
+                <option value="IT">Information Technology</option>
+                <option value="MECH">Mechanical Engineering</option>
+                <option value="CIVIL">Civil Engineering</option>
+            </select>
+        </p>
+
+        <p>
+            <b><label for="year">Year of Study:</label></b><br>
+            <select id="year" name="year" required>
+                <option value="">Select Year</option>
+                <option value="1st Year">First Year</option>
+                <option value="2nd Year">Second Year</option>
+                <option value="3rd Year">Third Year</option>
+                <option value="4th Year">Fourth Year</option>
+            </select>
+        </p>
+
+        <p>
+            <b><label for="email">Email Address:</label></b><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <b><label for="phone">Phone Number:</label></b><br>
+            <input type="tel" id="phone" name="phone" required>
+        </p>
+
+        <hr>
+
+        <h2><b><em><u>Event Details</u></em></b></h2>
+
+        <p>
+            <b><label for="event">Select Event:</label></b><br>
+            <select id="event" name="event" required>
+                <option value="">Choose an Event</option>
+                <option value="Technical Symposium">Technical Symposium</option>
+                <option value="Coding Competition">Coding Competition</option>
+                <option value="Cultural Festival">Cultural Festival</option>
+                <option value="Art and Drawing Competition">Art and Drawing Competition</option>
+                <option value="College Sports Day">College Sports Day</option>
+            </select>
+        </p>
+
+        <p>
+            <b><label for="comments">Additional Information:</label></b><br>
+            <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="agree" name="agreement" value="yes" required>
+            <i><label for="agree">I confirm that the information provided is correct.</label></i>
+        </p>
+
+        <center>
+            <p>
+                <input type="submit" value="Submit Registration">
+                <input type="reset" value="Clear Form">
+            </p>
+        </center>
+
+    </center></form>
+
+    <hr>
+
+    <center>
+        <h2><b><em><u>Important Instructions</u></em></b></h2>
+    </center>
+
+    <ol><center>
+        <li><i>Enter your correct student details.</i></li>
+        <li><i>Select your department and year of study.</i></li>
+        <li><i>Choose the event you want to attend.</i></li>
+        <li><i>Check your information before submitting.</i></li>
+        <li><i>Contact the event coordinator if you have any questions.</i></li>
+    </center></ol>
+
+    <hr>
+
+    <center>
+        <p><a href="events.html"><b><em>View Available Events</em></b></a></p>
+        <p><a href="index.html"><b><em>Return to Home Page</em></b></a></p>
+
+        <p><b><em>College Event Registration System</em></b></p>
+        <p><i>Developed as a College Team Project</i></p>
+        <p><b>2026 College Event Registration System</b></p>
+    </center>
+
+</body>
+</html>
